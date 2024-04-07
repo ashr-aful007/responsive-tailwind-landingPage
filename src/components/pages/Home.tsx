@@ -1,7 +1,10 @@
+import Container from "../Layouts/Container"
 
 function Home() {
   return (
-    <div>Home</div>
+    <Container>
+       <h1>This is home component</h1>
+    </Container>
   )
 }
 
